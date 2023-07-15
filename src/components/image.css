@@ -1,0 +1,15 @@
+.image-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .image-container img {
+    transition: transform 0.3s ease;
+  }
+  
+  .image-container:hover img {
+    transform: scale(1.1); /* Increase the scale on hover for a zoom effect */
+    /* Add other styles or animations as desired */
+    opacity: 0.8; /* Example: change opacity on hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Example: add box shadow on hover */
+  }
